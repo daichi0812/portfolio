@@ -25,7 +25,7 @@ const HeroSection = () => {
                                 1000,
                                 "Web Developer",
                                 1000,
-                                "CG research student",
+                                "CG Researcher",
                                 1000,
                             ]}
                             wrapper="span"
@@ -34,11 +34,14 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    I combine my passion for computer graphics with a deep understanding of information science to create dynamic solutions 
+                    for digital media, simulations, and web development. Whether building immersive visual experiences or crafting functional 
+                    web applications, I&apos;m always exploring new technologies and pushing the boundaries of what&apos;s possible. 
+                    As a student, I&apos;m committed to continuous learning and growth, applying my skills in both CG and web development.
                     </p>
                     <div>
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white'>
-                            Hire Me
+                            Hire me
                         </button>
                         <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white border mt-3'>
                             <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
@@ -56,7 +59,7 @@ const HeroSection = () => {
                         <Image
                             src="/images/MyIcon.JPG"
                             alt="hero image"
-                            className='absolute rounded-3xl transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                            className='absolute rounded-[40px] transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
                             width={300}
                             height={300}
                         />

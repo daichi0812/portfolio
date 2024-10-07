@@ -3,6 +3,7 @@ import { Resend } from "resend";
 
 const resendApiKey = process.env.RESEND_API_KEY;
 const fromEmail = process.env.FROM_EMAIL;
+const toEmail = process.env.TO_EMAIL;
 
 if (!resendApiKey) {
   throw new Error("環境変数 RESEND_API_KEY が設定されていません。");
@@ -27,16 +28,14 @@ export async function POST(req: Request): Promise<Response> {
   try {
     const data = await resend.emails.send({
       from: fromEmail as string,
-      to: [fromEmail as string, email],
+      to: [toEmail as string, email],
       subject: subject,
-      react: (`
-        <>
-          <h1>{subject}</h1>
+      html: `
+          <h2>${subject}</h2>
           <p>お問い合わせありがとうございます！</p>
           <p>新しいメッセージが送信されました：</p>
-          <p>{message}</p>
-        </>
-      `),
+          <p>${message}</p>
+      `,
     });
     return NextResponse.json(data);
   } catch (error) {
