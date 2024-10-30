@@ -21,8 +21,8 @@ const projectsData = [
         description: "同学科の仲間たちで作った「logicode」というチームの認証システムを Next.js、TailwindCSS, Auth.jsを用いて作成しました。",
         image: "/images/projects/auth-logicode.png",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/daichi0812/next14-authv5-tutorial",
-        previewUrl: "https://auth.logicode.tech",
+        gitUrl: "https://github.com/daichi0812/abs-ems",
+        previewUrl: "https://abs-ems.logicode.tech",
     },
 ]
 
