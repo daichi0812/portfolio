@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ポートフォリオ
 
-## Getting Started
+このリポジトリは、私のスキルや経験、興味を紹介するためのモダンでレスポンシブなウェブアプリケーションをホストしています。以下のリンクから実際のポートフォリオをご覧いただけます：[daichi.logicode.tech](https://daichi.logicode.tech)
 
-First, run the development server:
+## 特徴
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **About Me セクション**: 私の背景、興味、研究内容について知ることができます。
+- **タブナビゲーション**: スキル、経験、資格情報を簡単に切り替えて閲覧可能。
+- **動的コンテンツ**: 選択されたタブに応じてコンテンツが動的に更新されます。
+- **レスポンシブデザイン**: デスクトップとモバイルデバイスの両方に最適化されています。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## セクション概要
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### スキル
+- C++
+- Rust
+- Python
+- Go
+- TypeScript
+- Next.js
+- React
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 経験
+- マンスリーハッカソンvol.12 by サポーターズに参加 (2023年12月)
+- Sky株式会社 2週間サマーインターンに参加 (2024年9月)
 
-## Learn More
+### 資格
+- 現在は取得なし
 
-To learn more about Next.js, take a look at the following resources:
+## 使用技術
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js**: サーバーレンダリングや静的ウェブアプリケーションの構築に使用されるReactフレームワーク。
+- **React**: ユーザーインターフェースを構築するためのライブラリ。
+- **Tailwind CSS**: スタイリングとレスポンシブデザインを簡単に実現。
+- **TypeScript**: 型安全な開発のためのプログラミング言語。
+- **AWS**: ホスティングおよびデプロイ。
