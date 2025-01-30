@@ -6,6 +6,8 @@ import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 
 const HeroSection = () => {
+
+
     return (
         <section className='lg:py-16'>
             <div className='grid grid-cols-1 sm:grid-cols-12'>
@@ -41,7 +43,7 @@ const HeroSection = () => {
                     </p>
                     <div>
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white'>
-                            Hire me
+                            Github
                         </button>
                         <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white border mt-3'>
                             <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
